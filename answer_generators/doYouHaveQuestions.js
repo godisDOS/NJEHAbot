@@ -98,7 +98,6 @@ module.exports = () => {
 		const b = sample(["-", "*", "+", "•"])
 		const nb = sample([". ", ") "])
 
-		console.log(list);
 		const formattedList = list.map((question, i) => {
 			let str = `${question}`
 			switch (listFormatType) {
@@ -119,7 +118,6 @@ module.exports = () => {
 			}
 			return str;
 		}).join("")
-		console.log(formattedList);
 
 		return introduction + formattedList;
 	}
