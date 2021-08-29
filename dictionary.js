@@ -74,7 +74,7 @@ module.exports = {
 			"whites",
 		])
 	},
-	get() {
+	get homeland() {
 		return sample([
 			"homeland",
 			"country",
